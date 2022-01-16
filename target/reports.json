@@ -1,0 +1,180 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 762601,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.launch()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login into flipkart application",
+        "description": "",
+        "id": "flipkart-automation;login-into-flipkart-application",
+        "after": [
+          {
+            "result": {
+              "duration": 18800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59999,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Launch chromebrowser",
+            "match": {
+              "location": "CreateAccount.launch_chromebrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17099,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click on Createaccount button",
+            "match": {
+              "location": "CreateAccount.click_on_Createaccount_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5501,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "bookmark the cookies",
+            "match": {
+              "location": "CreateAccount.bookmark_the_cookies()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@thermofisher"
+          },
+          {
+            "name": "@accountcreation"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.launch()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login into flipkart application",
+        "description": "",
+        "id": "flipkart-automation;login-into-flipkart-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4800,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Launch chromebrowser",
+            "match": {
+              "location": "CreateAccount.launch_chromebrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Click on Createaccount button for \"IN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IN\"",
+                  "offset": 34
+                }
+              ],
+              "location": "CreateAccount.click_on_Createaccount_button_for(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9999,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "bookmark the cookies",
+            "match": {
+              "location": "CreateAccount.bookmark_the_cookies()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@thermofisher"
+          },
+          {
+            "name": "@accountcreation"
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart Automation",
+    "description": "",
+    "id": "flipkart-automation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/CreateAccount.feature",
+    "tags": [
+      {
+        "name": "@thermofisher",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
